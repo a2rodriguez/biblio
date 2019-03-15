@@ -1,7 +1,7 @@
 body
 {
-    background-color:                   lightgrey;
-    font-family:      TradeGothic, sans-serif;
+    background-color:              #D48C53;
+    font-family:      Cormorant Garamond, serif;
 	margin: 0 auto;
 /*
     margin-left:                       40px;
@@ -17,6 +17,9 @@ body
 	*/
 }
 
+body .page{
+  background-color:  #99653C;
+}
 
 .sisiny {
 	border: 1px solid #1B95E0;
@@ -26,7 +29,7 @@ body
 td{
   border: 1px solid;
   width: 70%;
-  
+
 }
 tr{
   border: 1px solid;
@@ -36,7 +39,8 @@ tr{
 #moi{
 	float: left;
 	width: 320px;
-	background-color: lightgrey;
+	background-color: #D48C53;
+  color: #0F1594;
 }
 
 /* MAMETRAKA AMIN'HAVIA MAHARITRA*/
@@ -79,7 +83,7 @@ nav ul {
   margin: 0px;
   list-style-type: none;
   /*background-color: #000000; */
-  background-color: #1B95E0;
+  background-color: #0F1594;
 }
 
 nav li {
@@ -88,14 +92,14 @@ nav li {
   height: 30px;
   margin: 0px;
   padding: 3px;
-  /*border-right: 01px solid #CCCCCC;*/
+  border-right: 01px solid #D48C53;
   text-align: center;
   line-height: 30px;
 }
 
 nav li a{
   text-decoration: none;
-  color: #FFFFFF;
+  color: #D48C53;
 }
 
 nav li :hover{
