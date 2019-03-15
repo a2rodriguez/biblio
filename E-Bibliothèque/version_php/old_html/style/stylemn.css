@@ -1,0 +1,49 @@
+<!--- DANS CSS --->
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #00994A;
+}
+.sisiny {
+	border:1px solid #00994A;
+}
+
+table.anatiny{
+ 	table-layout: auto;
+}
+
+a.bouton:link{
+width:80px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+text-decoration: none;
+color:white;
+text-align:center;
+background-color: #00994A;
+padding:12px}
+
+a.bouton:visited{
+width:80px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+text-decoration:none;
+color:white;
+text-align:center;
+background-color:#00994A;
+padding:12px}
+
+
+a.bouton:hover{
+width:80px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+text-decoration:underline overline;
+color:#00994A;
+text-align:center;
+background-color:#D5FFD5;
+padding:12px}
