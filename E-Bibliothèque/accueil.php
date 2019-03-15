@@ -5,7 +5,18 @@
 	<title>E-Bibliothèque - Accueil</title>
 	<link href="style/stylebb.css" rel="stylesheet"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<script>
+		function getLocalDate_fr(){
+				var now = new Date();
+				var day = now.getDay();
+				var date = now.getDate();
+				var month = now.getMonth();
+				var year = now.getFullYear();
+				var DOW=new Array("Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi");
+				var MON=new Array("Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre");
+				return DOW[day] + ' ' + date + ' ' + MON[month] + ' ' + year+'.';
+		}
+	</script>
 </head>
 
 <body>
@@ -19,11 +30,11 @@
 	<div>
 	<nav>
 		<ul>
-			<li><a href="accueil.html">ACCUEIL</a></li>
-			<li><a href="location.html">LOCATION</a></li>
-			<li><a href="achat.html">ACHAT</a></li>
-			<li><a href="electure.html">LECTURE</a></li>
-			<li><a href="bibliotheque.html">BIBLIOTHEQUE</a></li>
+			<li><a href="accueil.php">ACCUEIL</a></li>
+			<li><a href="location.php">LOCATION</a></li>
+			<li><a href="achat.php">ACHAT</a></li>
+			<li><a href="electure.php">LECTURE</a></li>
+			<li><a href="bibliotheque.php">BIBLIOTHEQUE</a></li>
 
 		</ul>
 
@@ -58,7 +69,7 @@
 </div>
 		<footer>
 			<div align="center">
-				<h4><a href="contact.html">Nous contacter</a> |  Mail : <a href="mailto:contact@bookiner.fr">contact@bookiner.fr</a> | Téléphone: 09.xx.xx.xx.xx | <a href="mention.html">Mentions légales</a> </h4>
+				<h4><a href="contact.php">Nous contacter</a> |  Mail : <a href="mailto:contact@bookiner.fr">contact@bookiner.fr</a> | Téléphone: 09.xx.xx.xx.xx | <a href="mention.php">Mentions légales</a> </h4>
 		</footer>
 	</body>
 </html>

@@ -19,11 +19,11 @@
 
 	<nav>
 		<ul>
-			<li><a href="accueil.html">ACCUEIL</a></li>
-			<li><a href="location.html">LOCATION</a></li>
-			<li><a href="achat.html">ACHAT</a></li>
-			<li><a href="electure.html">LECTURE</a></li>
-			<li><a href="bibliotheque.html">BIBLIOTHEQUE</a></li>
+			<li><a href="accueil.php">ACCUEIL</a></li>
+			<li><a href="location.php">LOCATION</a></li>
+			<li><a href="achat.php">ACHAT</a></li>
+			<li><a href="electure.php">LECTURE</a></li>
+			<li><a href="bibliotheque.php">BIBLIOTHEQUE</a></li>
 
 		</ul>
 	</nav>

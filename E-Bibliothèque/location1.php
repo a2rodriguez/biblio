@@ -6,7 +6,18 @@
 	<title>E-Bibliothèque - Location</title>
 	<link href="style/stylebb.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="style/stylemn.css">
-
+	<script>
+		function getLocalDate_fr(){
+				var now = new Date();
+				var day = now.getDay();
+				var date = now.getDate();
+				var month = now.getMonth();
+				var year = now.getFullYear();
+				var DOW=new Array("Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi");
+				var MON=new Array("Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre");
+				return DOW[day] + ' ' + date + ' ' + MON[month] + ' ' + year+'.';
+		}
+	</script>
 </head>
 
 <body>
@@ -21,11 +32,11 @@
 
 	<nav>
 		<ul>
-			<li><a href="accueil.html">ACCUEIL</a></li>
-			<li><a href="location.html">LOCATION</a></li>
-			<li><a href="achat.html">ACHAT</a></li>
-			<li><a href="electure.html">LECTURE</a></li>
-			<li><a href="bibliotheque.html">BIBLIOTHEQUE</a></li>
+			<li><a href="accueil.php">ACCUEIL</a></li>
+			<li><a href="location.php">LOCATION</a></li>
+			<li><a href="achat.php">ACHAT</a></li>
+			<li><a href="electure.php">LECTURE</a></li>
+			<li><a href="bibliotheque.php">BIBLIOTHEQUE</a></li>
 		</ul>
 	</nav>
 </div>

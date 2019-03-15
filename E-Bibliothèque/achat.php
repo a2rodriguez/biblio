@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>E-Bibliothèque - Location</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="style/stylebb.css" rel="stylesheet"/>
-	<link rel="stylesheet" type="text/css" href="style/stylemn.css">
+	<link rel="stylesheet" type="text/css" href="style/stylemna.css">
 <script>
 	function getLocalDate_fr(){
 			var now = new Date();
@@ -33,11 +33,11 @@
 
 	<nav>
 		<ul>
-			<li><a href="accueil.html">ACCUEIL</a></li>
-			<li><a href="location.html">LOCATION</a></li>
-			<li><a href="achat.html">ACHAT</a></li>
-			<li><a href="electure.html">LECTURE</a></li>
-			<li><a href="bibliotheque.html">BIBLIOTHEQUE</a></li>
+			<li><a href="accueil.php">ACCUEIL</a></li>
+			<li><a href="location.php">LOCATION</a></li>
+			<li><a href="achat.php">ACHAT</a></li>
+			<li><a href="electure.php">LECTURE</a></li>
+			<li><a href="bibliotheque.php">BIBLIOTHEQUE</a></li>
 		</ul>
 	</nav>
 </div>
@@ -49,7 +49,7 @@
 		<tr>
 			<th>
 				<br>
-				<strong><<< -- ESPACE LOCATION -- >>></strong>
+				<strong><<< -- ESPACE ACHAT -- >>></strong>
 				<p></p>
 			</th>
 		</tr>
@@ -79,21 +79,21 @@
 	</tr>
 	<tr>
 	<td>Le Monde, Coder, le futur métier en vogue</td>
-	<td>0.50€</td>
+	<td>1.10€</td>
 
 	</tr>
 	<tr>
 	<td>Le Figaro, Une biche attaque un Belge et le blesse.</td>
-	<td>0.50€</td>
+	<td>1.10€</td>
 	</tr>
 	<tr>
 	<td>Le Parisien, Un serveur se montre sympa avec un client</td>
-	<td>0.50€</td>
+	<td>1.10</td>
 
 	</tr>
 	<tr>
 	<td>L'Union, un Ardennais beuque et trouve une pépite d'or</td>
-	<td>0.50€</td>
+	<td>1.20€</td>
 
 	</tr>
 	</table>
@@ -109,21 +109,21 @@
 	</tr>
 	<tr>
 	<td>VitaForm, Comment perdre le gras du ventre en un mois!</td>
-	<td>3€</td>
+	<td>10€</td>
 
 	</tr>
 	<tr>
 	<td>Fitness, La bouée, la forme préférée des femmes de nos jours</td>
-	<td>5€</td>
+	<td>15€</td>
 	</tr>
 	<tr>
 	<td>CourVit, 5 leçons pour devenir fort comme un ours</td>
-	<td>2€</td>
+	<td>22€</td>
 
 	</tr>
 	<tr>
 	<td>Aupital, Comment un homme survit face à la grippe</td>
-	<td>2€</td>
+	<td>15€</td>
 
 	</tr>
 	<tr>
@@ -143,21 +143,21 @@
 	</tr>
 	<tr>
 	<td>Histoire, La 3ème guerre mondiale</td>
-	<td>5€</td>
+	<td>26€</td>
 
 	</tr>
 	<tr>
 	<td>Communiste, Travailler pour mieux payer</td>
-	<td>2€</td>
+	<td>50€</td>
 	</tr>
 	<tr>
 	<td>Capistalisme, Travailler pour payer les riches</td>
-	<td>2€</td>
+	<td>60€</td>
 
 	</tr>
 	<tr>
 	<td>Amica, La guerre du Golf</td>
-	<td>3€</td>
+	<td>14€</td>
 
 	</tr>
 	<div align="right"><a href="#">Top</a></div>
@@ -173,7 +173,7 @@
 	</tr>
 	<tr>
 	<td>My hero academia, All Might contre All for One</td>
-	<td>1€</td>
+	<td>6.60€</td>
 
 
 	</tr>
@@ -184,12 +184,12 @@
 	</tr>
 	<tr>
 	<td>Death Note, Mourir par écrit</td>
-	<td>1€</td>
+	<td>6.60€</td>
 
 	</tr>
 	<tr>
 	<td>Pokémon, L'histoire d'un meilleur dresseur</td>
-	<td>1€</td>
+	<td>6.60€</td>
 
 	</tr>
 	<div align="right"><a href="#">Top</a></div>
@@ -205,26 +205,26 @@
 	</tr>
 	<tr>
 	<td>Biencuisiner, Faire une poule au pot</td>
-	<td>2€</td>
+	<td>20€</td>
 
 	</tr>
 	<tr>
 	<td>BienGrossir, Une bonne raclette même en été</td>
-	<td>2€</td>
+	<td>21€</td>
 	</tr>
 	<tr>
 	<td>Bienmaigrir, un cornichon en guise de repas</td>
-	<td>2€</td>
+	<td>18€</td>
 
 	</tr>
 	<tr>
 	<td>LaCuisineDeMamy, Faire une cacasse à cul nu</td>
-	<td>2€</td>
+	<td>26€</td>
 
 	</tr>
 	<tr>
 	<td>Miam, La cuisine au beurre</td>
-	<td>1€</td>
+	<td>17€</td>
 
 	</tr>
 	<div align="right"><a href="#">Top</a></div>
@@ -240,21 +240,21 @@
 	</tr>
 	<tr>
 	<td>Gloria, Vivre pour les autres</td>
-	<td>4€</td>
+	<td>12€</td>
 
 	</tr>
 	<tr>
 	<td>JK Rowling, Harry Potter et la coupe de feu</td>
-	<td>4€</td>
+	<td>16€</td>
 	</tr>
 	<tr>
 	<td>Poissard, Mon père est mon cousin.</td>
-	<td>5€</td>
+	<td>24€</td>
 
 	</tr>
 	<tr>
 	<td>Renaud, Une voiture comme compagne</td>
-	<td>5€</td>
+	<td>11€</td>
 
 	</tr>
 	<div align="right"><a href="#">Top</a></div>
@@ -270,21 +270,21 @@
 	</tr>
 	<tr>
 	<td>George Lucas, Star Wars</td>
-	<td>5€</td>
+	<td>16€</td>
 
 	</tr>
 	<tr>
 	<td>Harlan Ellison, Terminator</td>
-	<td>3€</td>
+	<td>18€</td>
 	</tr>
 	<tr>
 	<td>Romain, Un formateur pas comme les autres </td>
-	<td>5€</td>
+	<td>560€</td>
 
 	</tr>
 	<tr>
 	<td>Simplon, Dormir, c'est déjà un bon début</td>
-	<td>15€</td>
+	<td>20€</td>
 
 	</tr>
 	<div align="right"><a href="#">Top</a></div>

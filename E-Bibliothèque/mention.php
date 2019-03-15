@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8"/>
-	<title>E-Bibliothèque - Location</title>
-	<link href="style/stylebb.css" rel="stylesheet"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-Bibliothèque - Mentions légales</title>
+	<link href="style/stylebb.css" rel="stylesheet"/>
 
 </head>
 
@@ -19,21 +19,17 @@
 
 	<nav>
 		<ul>
-			<li><a href="accueil.html">ACCUEIL</a></li>
-			<li><a href="location.html">LOCATION</a></li>
-			<li><a href="achat.html">ACHAT</a></li>
-			<li><a href="electure.html">LECTURE</a></li>
-			<li><a href="bibliotheque.html">BIBLIOTHEQUE</a></li>
+			<li><a href="accueil.php">ACCUEIL</a></li>
+			<li><a href="location.php">LOCATION</a></li>
+			<li><a href="achat.php">ACHAT</a></li>
+			<li><a href="electure.php">LECTURE</a></li>
+			<li><a href="bibliotheque.php">BIBLIOTHEQUE</a></li>
 
 		</ul>
 	</nav>
 	<div class="sisiny">
 		<div id="havia">
-			<p>GAUCHE</p>
-
-		</div>
-		<div id="havanana">
-			<p>DROITE</p>
+			Contenu mentions légales
 
 		</div>
 	</div>
