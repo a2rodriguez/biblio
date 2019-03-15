@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>E-Bibliothèque - Location</title>
-	<link href="style/stylebb.css" rel="stylesheet"/>
+	<link href="style/stylebbcolora.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="style/stylemna.css">
 	<script type='text/javascript' src='script/scriptbb.js'></script>
 </head>

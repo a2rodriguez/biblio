@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>E-Bibliothèque</title>
-	<link href="style/stylebb.css" rel="stylesheet"/>
+	<link href="style/stylebbcolorA.css" rel="stylesheet"/>
 	<script type='text/javascript' src='script/scriptbb.js'></script>
-	
+
 </head>
 
 <body>
