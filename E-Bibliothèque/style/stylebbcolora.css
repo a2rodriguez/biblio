@@ -1,9 +1,9 @@
 body
 {
-    background-color:                   #D48C53;
+    background-color:              #D48C53;
     background-size: 100%;
     font-family:      Cormorant Garamond, serif;
-	margin: 0 auto;
+	 margin: 0 auto;
 /*
     margin-left:                       40px;
     margin-top:                        150px;
@@ -18,19 +18,15 @@ body
 	*/
 }
 
-
 .sisiny {
-	border: 1px solid #0F1594;
-	border-color: #0F1594;
+	border: 1px solid #1B95E0;
+	border-color: #1B95E0;
 }
 
 td{
   border: 1px solid;
   width: 70%;
-  border-color: #00994A;
-  background-color: #00994A;
-  color: white;
-}
+  border-color: purple;
 }
 tr{
   border: 1px solid;
@@ -84,7 +80,7 @@ nav ul {
   margin: 0px;
   list-style-type: none;
   /*background-color: #000000; */
-  background-color: #0f1594;
+  background-color: #0F1594;
 }
 
 nav li {
@@ -93,14 +89,14 @@ nav li {
   height: 30px;
   margin: 0px;
   padding: 3px;
-  border-right: 01px solid #D48c53;
+  border-right: 01px solid #D48C53;
   text-align: center;
   line-height: 30px;
 }
 
 nav li a{
   text-decoration: none;
-  color: #D48c53;
+  color: #D48C53;
 }
 
 nav li :hover{
