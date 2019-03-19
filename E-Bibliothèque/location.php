@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>E-Bibliothèque - Location</title>
 	<link href="style/stylebb.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="style/stylemn.css">
